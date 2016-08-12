@@ -1,0 +1,83 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.clear{
+	clear:both;
+}
+.header{
+	width:1000px;
+	height: 150px;
+	border:1px solid red;
+	margin:0 auto;  /*定宽块元素居中*/
+}
+.header .logo{
+	width:200px;
+	height:30px;
+	border:1px solid red;
+	float: left;
+}
+.header .search{
+	width:200px;
+	height:30px;
+	border:1px solid red;
+	float: right;
+}
+.header .nav{
+	background-color: #eee;
+	height:50px;
+}
+
+.header .nav ul li{
+	float: left;
+	list-style: none;
+	width:100px;
+	height:50px;
+	border:1px solid blue;
+	text-align: center;
+	line-height: 50px;
+}
+.banner{
+	width:1000px;
+	height:500px;
+	border:1px solid red;
+	margin:0 auto;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	border:1px solid red;
+}
+.container .top .c-t-left{
+	width:448px;
+	height:300px;
+	border:1px solid red;
+	float: left;
+	padding-left:50px;
+}
+.container .top .c-t-left h3{
+	margin-top:30px;
+}
+.container .top .c-t-left ul{
+	width: 398px;
+	border:1px solid red;
+}
+.container .top .c-t-left ul li{
+	border:1px solid blue;
+}
+.container .top .c-t-left ul li span{
+	float: right;
+}
+
+.container .top .c-t-center{
+	width:248px;
+	height:300px;
+	border:1px solid red;
+	float: left;
+}
+.container .top .c-t-right{
+	width:248px;
+	height:300px;
+	border:1px solid red;
+	float: left;
+}
